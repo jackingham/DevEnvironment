@@ -28,5 +28,9 @@ Vagrant.configure("2") do |config|
 - Open browser and navigate to 192.168.10.100
 - The nginx splash page should be visible.
 
+## Other vagrant commands
+- `vagrant destroy` stops the VM and destroys config
+- `vagrant suspend` stops the VM but keeps config
+
 
 
