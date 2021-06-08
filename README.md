@@ -14,14 +14,14 @@ Vagrant.configure("2") do |config|
 
 
 ## Vagrant commands
-- 'vagrant up' Launches the VM
-- 'vagrant status' Views status of the VM
-- 'vagrant ssh' SSH's into the VM
+- `vagrant up` Launches the VM
+- `vagrant status` Views status of the VM
+- `vagrant ssh` SSH's into the VM
 
 ## VM Commands
-- Update VM 'sudo apt-get update -y' (sudo runs with perms, apt-get is an install manager, -y flag accepts all permissions.) 
-- Install a program 'sudo apt-get install {program}' 
-- e.g., 'sudo apt-get install nginx'
+- Update VM `sudo apt-get update -y` (sudo runs with perms, apt-get is an install manager, -y flag accepts all permissions.) 
+- Install a program `sudo apt-get install {program}` 
+- e.g., `sudo apt-get install nginx`
 
 
 ## Verify nginx 
