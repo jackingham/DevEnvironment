@@ -1,7 +1,7 @@
 # DevEnvironment
 
 ## Setting up vagrant file
--Inside directory, create file called Vagrantfile with contents:
+- Inside directory, create file called Vagrantfile with contents:
 ```
 Vagrant.configure("2") do |config|
 
